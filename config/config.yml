@@ -1,0 +1,19 @@
+debug: true
+connection: mysql
+connections: 
+  mysql:
+    driver: pdo_mysql
+    host: localhost
+    database: bahasa
+    username: root
+    password: root
+    charset: utf8
+    port: 3306
+metadata: xml
+metadatas:
+  xml:  
+    schemes: []
+cache: file
+caches:
+  file:
+    path: "%storage_path%/database/cache"
